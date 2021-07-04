@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*font-family: 'Playfair Display', serif;*/
+
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+
+.MenuNav{
+    font-family: 'Playfair Display', serif;
+    background: #041C0D;
+    width: 100%;
+    margin:0;
+    position: absolute;
+    display: flex;
+}
+
+#btn-menu{
+    display: none;
+}
+
+.MenuNav label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.MenuNav label i{
+    color: white;
+    font-size: 25px;
+}
+
+.MenuNav label:hover{
+    cursor: pointer;
+    background: rgba(0, 0,0, 0.3);
+    border-right: 1px solid #77e762;
+    margin: 0;
+    height: auto;
+    width: 10%;
+}
+
+.List{
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.LiMenu{
+    margin: 15px 0 15px 0;
+}
+
+.LiMenu {
+    display: inline;
+    padding:1px 20px;
+    color: #77e762;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+.LiMenu:hover{
+    color: white;
+}
+
+/* ESTE SON LOS ESTILOS PARA EL Menú*/
+
+@media (max-width:1024px) {
+
+    .MenuNav label{
+        display: block;
+    }
+    
+    .NavBar{
+        position: absolute;
+        background: #041C0D;
+        width: 60%;
+        margin-left: -80%;
+        transition: all 0.5s;
+        z-index: 2;
+    }
+
+    .NavBar .List{
+        flex-direction: column;
+    }
+
+    .NavBar .LiMenu{
+        margin: 0;
+        padding: 15px;
+        border: 1px solid #77e762;
+    }
+
+    #btn-menu:checked ~ .NavBar{
+        margin: 0;
+    }
+}
