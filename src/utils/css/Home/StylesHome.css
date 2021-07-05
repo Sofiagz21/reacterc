@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*font-family: 'Playfair Display', serif;*/
+
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+/* ESTILOS DEL HOME*/
+
+.ContainerHome{
+    width: 100%;
+}
+.ImagenFondo{
+    background-image: url("../../images/Home/paisaje.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+/* estilos de la iamgen del logo*/
+
+.Logo{
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.Logo img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+/* estilos del scroll */
+
+.Scroll{
+   margin-top:5%;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.Scroll img{
+    width: 70%;
+}
+
+/* estilos del footer*/
+
+/*ESTILOS DEL FOOTERr*/
+
+footer{
+    border-top: 5px solid rgb(145, 236, 145);
+    background-color:#08110b;
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+.cajitafooter{
+    padding: 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cajitafooter img{
+margin-left: 3%;
+ width: 7%;
+}
+
+.cajitafooter .frase{
+    color: #77e762;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    margin: 2% 0 0 2%;
+
+}
+
+.RedesSociales{
+margin-top: 2%;
+width: 47%;
+justify-content: flex-end;
+  display: flex;
+}
+
+.RedesSociales img{
+    margin-right: 10px;
+    width: 32px;
+    
+}
+
+
+.RedesSociales a{
+    border-radius: none;
+    color: none;
+    text-decoration: none;
+}
+
+.frase{
+    margin-left: 50%;
+}
+  
+
+  /* ESTILOS DE LOS PRODUCTOS*/
+
+.contenidoProductos{
+    width: 100%;
+    height: 100%;
+}
+
+.boxProductos{
+    z-index: 1;
+}
+
+.boxFotos img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxFotos{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height:100vh;
+    width: 100%;
+}
+
+.titleBox{
+    position: absolute;
+    background-color: rgba(2, 37, 15, 0.80);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    margin: 5% 5% 0 0;
+    height: auto;
+    right: 67px;
+    right: 15px;
+    border-radius: 20px;
+}
+
+.titleLleg{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    margin: 3% 2% 0 2%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+    color: #77E762;
+}
+
+.textLleg{
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    margin: 6% 3% 0 3%;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: white;
+}
+
+.botonLle{
+    display: flex;
+    justify-content: center;
+}
+.botonLle a{
+    text-decoration: none;
+    color: #FFf;
+}
+
+.botonLle button{
+    margin-top: 5%;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+    padding: 2%;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.582);
+    border: 2px solid #77E762;
+}
+
+#QuienesSomos{
+    height: 100%;
+    background-color: #041C0D;
+    padding: 5% 5% 5% 5%;
+}
+
+.visually-hidden{
+    width: 50px;
+    color: green;
+}
+
+
+/*----------------------------- RESPONSIVE------------------------------------------------*/
+
+
+
+@media only screen and (max-width:420px){
+
+    .ImagenFondo{
+        background-image: url("../../images/Home/paisajeparacel.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .Logo img{
+        margin-top: 85px;
+        width: 310px;
+        justify-content: center;
+
+    }
+
+    .Scroll{
+        margin-top: 130px;
+        align-items: center;
+    }
+    .Scroll img{
+        display: flex;
+
+        justify-content: end;
+    }
+
+    .cajitafooter img{
+         margin-left: 3%;
+         width: 50px;
+    }
+
+    .RedesSociales img{
+        width: 30px;
+    }
+
+    .cajitafooter .frase{
+        font-size: 15px;
+    }
+
+
+    .boxFotos{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    
+
+    .boxFotos img{
+        width: 100%;
+    }
+
+
+    .titleBox{
+        width: 250px;
+        height: 60%;
+        left: 25;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+
+    .titleLleg{
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        margin:01% 2% 0 5%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .textLleg{
+        font-family: 'Alice', serif;
+        font-size: 12px;
+        margin: 2% 4% 0 4%;
+        letter-spacing: 1px;
+    }
+     
+
+    .botonLle{
+        display: flex;
+        justify-content: center;
+    }
+
+    .botonLle button{
+        font-size: 15px;
+    }
+    
+
+    .cajitafooter img{
+        margin-left: 3%;
+        width: 50px;
+    }
+    
+    .RedesSociales img{
+       width: 30px;
+    }
+    
+    .cajitafooter .frase{
+       font-size: 15px;
+    }
+}
+
+/* de 421 a 768*/
+
+@media only screen and (min-width:421px) and (max-width:768px){
+
+    .ImagenFondo{
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .Logo img {
+        margin-top: 15px;
+        width: 80%;
+        justify-content: center;
+    }
+    .boxFotos{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    .Scroll{
+        margin-top: 45px;
+       display: flex;
+        justify-content: center;
+    }
+    
+    .Scroll img{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    .titleLleg{
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+        margin:01% 2% 0 5%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .textLleg{
+        font-family: 'Alice', serif;
+        font-size: 17px;
+        margin: 2% 4% 0 4%;
+        letter-spacing: 1px;
+    }
+
+    .botonLle button{
+        font-size: 20px;
+    }
+}
+     /* de 421 a 768*/
+
+@media only screen and (min-width:769px) and (max-width:1100px){
+
+    .ImagenFondo{
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .Logo img {
+        margin-top: 15px;
+        width: 80%;
+        justify-content: center;
+    }
+    .boxFotos{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    .Scroll{
+        margin-top: 5px;
+       display: flex;
+        justify-content: center;
+    }
+    
+    .Scroll img{
+        display: flex;
+        justify-content: center;
+    }
+    
+  
+
+    .titleLleg{
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin:01% 2% 0 5%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .textLleg{
+        font-family: 'Alice', serif;
+        font-size: 30px;
+        margin: 2% 4% 0 4%;
+        letter-spacing: 1px;
+    }
+    
+}

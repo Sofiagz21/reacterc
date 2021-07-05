@@ -71,30 +71,33 @@ body,html{
 
 @media (max-width:1024px) {
 
-    .MenuNav label{
-        display: block;
-    }
     
-    .NavBar{
-        position: absolute;
-        background: #041C0D;
-        width: 60%;
-        margin-left: -80%;
-        transition: all 0.5s;
-        z-index: 2;
-    }
-
-    .NavBar .List{
-        flex-direction: column;
-    }
-
-    .NavBar .LiMenu{
-        margin: 0;
-        padding: 15px;
-        border: 1px solid #77e762;
-    }
-
-    #btn-menu:checked ~ .NavBar{
-        margin: 0;
-    }
+label{
+    display: block;
 }
+
+.NavBar{
+    position: absolute;
+    background: #041C0D;
+    width: 60%;
+    margin-left: -80%;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.NavBar .List{
+    flex-direction: column;
+}
+
+.NavBar .LiMenu{
+    margin: 0;
+    padding: 15px;
+    border: 1px solid #77e762;
+}
+
+#btn-menu:checked ~ .NavBar{
+    margin: 0;
+}
+}
+
+
