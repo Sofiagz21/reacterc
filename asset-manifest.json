@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reacterc/static/css/main.6d84ade5.chunk.css",
-    "main.js": "/reacterc/static/js/main.ad67e89e.chunk.js",
-    "main.js.map": "/reacterc/static/js/main.ad67e89e.chunk.js.map",
+    "main.css": "/reacterc/static/css/main.3ebecaf5.chunk.css",
+    "main.js": "/reacterc/static/js/main.20479317.chunk.js",
+    "main.js.map": "/reacterc/static/js/main.20479317.chunk.js.map",
     "runtime-main.js": "/reacterc/static/js/runtime-main.f61d854f.js",
     "runtime-main.js.map": "/reacterc/static/js/runtime-main.f61d854f.js.map",
-    "static/js/2.7fef75a8.chunk.js": "/reacterc/static/js/2.7fef75a8.chunk.js",
-    "static/js/2.7fef75a8.chunk.js.map": "/reacterc/static/js/2.7fef75a8.chunk.js.map",
+    "static/js/2.ab111beb.chunk.js": "/reacterc/static/js/2.ab111beb.chunk.js",
+    "static/js/2.ab111beb.chunk.js.map": "/reacterc/static/js/2.ab111beb.chunk.js.map",
     "index.html": "/reacterc/index.html",
-    "static/css/main.6d84ade5.chunk.css.map": "/reacterc/static/css/main.6d84ade5.chunk.css.map",
-    "static/js/2.7fef75a8.chunk.js.LICENSE.txt": "/reacterc/static/js/2.7fef75a8.chunk.js.LICENSE.txt",
+    "static/css/main.3ebecaf5.chunk.css.map": "/reacterc/static/css/main.3ebecaf5.chunk.css.map",
+    "static/js/2.ab111beb.chunk.js.LICENSE.txt": "/reacterc/static/js/2.ab111beb.chunk.js.LICENSE.txt",
     "static/media/1.919861e6.png": "/reacterc/static/media/1.919861e6.png",
     "static/media/1.a76a7d41.png": "/reacterc/static/media/1.a76a7d41.png",
     "static/media/2.100c7ab7.png": "/reacterc/static/media/2.100c7ab7.png",
@@ -20,6 +20,9 @@
     "static/media/4.78c72b2d.png": "/reacterc/static/media/4.78c72b2d.png",
     "static/media/5.02f2fd1a.png": "/reacterc/static/media/5.02f2fd1a.png",
     "static/media/6.8954b532.png": "/reacterc/static/media/6.8954b532.png",
+    "static/media/Mafe.619b6047.jpeg": "/reacterc/static/media/Mafe.619b6047.jpeg",
+    "static/media/Sofia.fc39f360.jpeg": "/reacterc/static/media/Sofia.fc39f360.jpeg",
+    "static/media/colaboradoras.73c8e913.png": "/reacterc/static/media/colaboradoras.73c8e913.png",
     "static/media/facebook.1afc1a99.svg": "/reacterc/static/media/facebook.1afc1a99.svg",
     "static/media/logosinfondo.5deab426.png": "/reacterc/static/media/logosinfondo.5deab426.png",
     "static/media/logotipo-de-instagram.93dc968c.svg": "/reacterc/static/media/logotipo-de-instagram.93dc968c.svg",
@@ -28,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f61d854f.js",
-    "static/js/2.7fef75a8.chunk.js",
-    "static/css/main.6d84ade5.chunk.css",
-    "static/js/main.ad67e89e.chunk.js"
+    "static/js/2.ab111beb.chunk.js",
+    "static/css/main.3ebecaf5.chunk.css",
+    "static/js/main.20479317.chunk.js"
   ]
 }
