@@ -30,8 +30,8 @@ const menu = () => {
             </nav>
         </header>
         <Switch>
+          <Route path="/Colaboradoras" component={Colaboradoras}/>
           <Route path="/" exact component={Home}/>
-          <Route path="/Colaboradoras" exact component={Colaboradoras}/>
           </Switch>
         </Router>
     )
