@@ -1,5 +1,6 @@
 import React from 'react'
 import Colaboradoras from '../../utils/images/Colaboradoras/colaboradoras.png'
+import '../../utils/css/Colaboradoras/colaboradoras.css'
 
 
 const ladoderecho = () => {

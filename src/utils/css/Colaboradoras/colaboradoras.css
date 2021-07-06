@@ -89,7 +89,7 @@ body,html{
 }
 
 .container{
-    padding-left: 10%;
+    padding-left: 15%;
     padding-top: 15rem;
     background-color: #fff;
     display: grid ;
@@ -121,7 +121,7 @@ body,html{
 }
 
 .imgBox img{
-  width: 450px;
+  width: 350px;
 }
 
 .imgBox{
@@ -298,8 +298,11 @@ justify-content: flex-end;
         width: 300px;
     }
 
+    .imgBox img {
+        width: 350px;
+    }
     .imagenGrande img {
-    width: 200px;
+    width: 300px;
 }
     .textImagenGrande p {
         align-items: center;
@@ -326,13 +329,12 @@ justify-content: flex-end;
         display: grid;
         grid-template-rows: 1fr;
         justify-content: center;
-        padding-top: 2rem;
-        margin: 10px;
+        padding-top: 5rem;
     }
 
     .container {
         align-items: center;
-        padding-left: 0;
+        padding-left: 65px;
         padding-top: 10rem;
         background-color: #fff;
         display: grid;
@@ -342,16 +344,6 @@ justify-content: flex-end;
         background-color: #02250F;
     }
 
-    .card {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 280px;
-        margin: 5rem 35px;
-        border-radius: 50px;
-        background: #8bb85c;
-    }
     .card:hover .person {
         transform: scale(1.1);
         bottom: 30px;
@@ -394,6 +386,9 @@ justify-content: flex-end;
         margin-left: 15px;
         width: 350px;
     }
+    .imagenGrande img {
+        width: 350px;
+    }
 
     .textImagenGrande p {
         align-items: center;
@@ -425,7 +420,7 @@ justify-content: flex-end;
 
     .container {
         align-items: center;
-        padding-left: 0;
+        padding-left: 25%;
         padding-top: 10rem;
         background-color: #fff;
         display: grid;
@@ -450,7 +445,7 @@ justify-content: flex-end;
         bottom: 30px;
     }
 
-    .person {
+    .person{
         position: relative;
         left: 38px;
         top: 250px;
@@ -458,6 +453,10 @@ justify-content: flex-end;
         transform: translateY(20px) scale(1.15);
         transform-origin: 50% bottom;
         transition: transform 0.7s cubic-bezier(.4,0.2, 1);
+    }
+
+    .imgBox img {
+        width: 350px;
     }
 
   }
@@ -527,7 +526,7 @@ justify-content: flex-end;
     }
 
     .container {
-        padding-left: 32%;
+        padding-left: 25%;
         align-items: center;
         padding-top: 10rem;
         background-color: #fff;

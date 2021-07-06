@@ -1,9 +1,11 @@
 import React from 'react'
+import '../../utils/css/Colaboradoras/colaboradoras.css'
 import Sofia from '../../utils/images/Colaboradoras/Sofia.jpeg'
 import Facebook from '../../utils/images/Colaboradoras/facebook.png'
 import Twitter from '../../utils/images/Colaboradoras/twitter.png'
 import Instagram from '../../utils/images/Colaboradoras/instagram_.png'
 import Mafe from '../../utils/images/Colaboradoras/Mafe.jpeg'
+
 
 
 
@@ -20,7 +22,7 @@ const ladoizquierdo = () => {
       {/* container imagenes y fondo */}
       <div className="images">
         <div className="imgBox">
-        <img src={Sofia} alt />
+        <img className="person" src={Sofia} alt />
         </div>
       </div>
       {/* contenedor caja 1 */}
@@ -45,7 +47,7 @@ const ladoizquierdo = () => {
       {/* container imagenes y fondo */}
       <div className="images">
         <div className="imgBox">
-        {/*<img src={} alt />*/}
+        {/*<img className="person" src={} alt />*/}
         </div>
       </div>
       {/* contenedor caja 1 */}
@@ -70,7 +72,7 @@ const ladoizquierdo = () => {
       {/* container imagenes y fondo */}
       <div className="images">
         <div className="imgBox">
-        {/*<img src={Mafe} alt />*/}
+        {/*<img className="person" src={Mafe} alt />*/}
         </div>
       </div>
       {/* contenedor caja 1 */}
@@ -97,7 +99,7 @@ const ladoizquierdo = () => {
       {/* container imagenes y fondo */}
       <div className="images">
         <div className="imgBox">
-        {/*<img src={Mafe} alt />*/}
+        {/*<img className="person" src={Mafe} alt />*/}
         </div>
       </div>
       {/* contenedor caja 1 */}
