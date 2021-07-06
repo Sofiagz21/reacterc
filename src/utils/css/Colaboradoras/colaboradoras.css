@@ -295,9 +295,12 @@ justify-content: flex-end;
     }
     .todas{
         margin-left: 15px;
-        width: 200px;
+        width: 300px;
     }
 
+    .imagenGrande img {
+    width: 200px;
+}
     .textImagenGrande p {
         align-items: center;
         margin: 0 20px 10px 20px;
