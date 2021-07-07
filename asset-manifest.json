@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reacterc/static/css/main.2fd7eaa6.chunk.css",
-    "main.js": "/reacterc/static/js/main.ffb4d521.chunk.js",
-    "main.js.map": "/reacterc/static/js/main.ffb4d521.chunk.js.map",
+    "main.js": "/reacterc/static/js/main.c7f347aa.chunk.js",
+    "main.js.map": "/reacterc/static/js/main.c7f347aa.chunk.js.map",
     "runtime-main.js": "/reacterc/static/js/runtime-main.f61d854f.js",
     "runtime-main.js.map": "/reacterc/static/js/runtime-main.f61d854f.js.map",
     "static/js/2.d5476170.chunk.js": "/reacterc/static/js/2.d5476170.chunk.js",
@@ -20,19 +20,19 @@
     "static/media/4.78c72b2d.png": "/reacterc/static/media/4.78c72b2d.png",
     "static/media/5.02f2fd1a.png": "/reacterc/static/media/5.02f2fd1a.png",
     "static/media/6.8954b532.png": "/reacterc/static/media/6.8954b532.png",
-    "static/media/Mafe.619b6047.jpeg": "/reacterc/static/media/Mafe.619b6047.jpeg",
-    "static/media/Sofia.fc39f360.jpeg": "/reacterc/static/media/Sofia.fc39f360.jpeg",
     "static/media/colaboradoras.73c8e913.png": "/reacterc/static/media/colaboradoras.73c8e913.png",
     "static/media/facebook.1afc1a99.svg": "/reacterc/static/media/facebook.1afc1a99.svg",
+    "static/media/laura.cbea14a5.png": "/reacterc/static/media/laura.cbea14a5.png",
     "static/media/logosinfondo.5deab426.png": "/reacterc/static/media/logosinfondo.5deab426.png",
     "static/media/logotipo-de-instagram.93dc968c.svg": "/reacterc/static/media/logotipo-de-instagram.93dc968c.svg",
     "static/media/StylesHome.css": "/reacterc/static/media/paisajeparacel.4ec9147a.png",
-    "static/media/scroll.4a36f644.svg": "/reacterc/static/media/scroll.4a36f644.svg"
+    "static/media/scroll.4a36f644.svg": "/reacterc/static/media/scroll.4a36f644.svg",
+    "static/media/sofia.c50d0619.png": "/reacterc/static/media/sofia.c50d0619.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f61d854f.js",
     "static/js/2.d5476170.chunk.js",
     "static/css/main.2fd7eaa6.chunk.css",
-    "static/js/main.ffb4d521.chunk.js"
+    "static/js/main.c7f347aa.chunk.js"
   ]
 }
