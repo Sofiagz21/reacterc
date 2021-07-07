@@ -1,10 +1,10 @@
 import React from 'react'
 import '../../utils/css/Colaboradoras/colaboradoras.css'
-import Sofia from '../../utils/images/Colaboradoras/Sofia.jpeg'
+import Sofia from '../../utils/images/Colaboradoras/sofia.png'
+import Laura from '../../utils/images/Colaboradoras/laura.png'
 import Facebook from '../../utils/images/Colaboradoras/facebook.png'
 import Twitter from '../../utils/images/Colaboradoras/twitter.png'
 import Instagram from '../../utils/images/Colaboradoras/instagram_.png'
-import Mafe from '../../utils/images/Colaboradoras/Mafe.jpeg'
 
 
 
@@ -72,7 +72,7 @@ const ladoizquierdo = () => {
       {/* container imagenes y fondo */}
       <div className="images">
         <div className="imgBox">
-        {/*<img className="person" src={Mafe} alt />*/}
+        <img className="person" src={Laura} alt />
         </div>
       </div>
       {/* contenedor caja 1 */}

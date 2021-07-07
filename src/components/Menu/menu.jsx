@@ -33,6 +33,7 @@ const menu = () => {
         {/* path que me corrige que la primera ruta sea el Home*/}
         <Route path="/reacterc" exact component={Home}/>
           <Route path="/" exact component={Home}/>
+          <Route path="/Colaboradoras" exact component={Colaboradoras}/>
           </Switch>
         </Router>
     )
