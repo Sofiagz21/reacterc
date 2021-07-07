@@ -9,7 +9,7 @@ import{
     Link,
     NavLink,
   } from "react-router-dom";
-import '../../pages/Colaboradoras'
+
 import '../../utils/css/menu/stylesMenu.css'
 
 const menu = () => {
@@ -20,7 +20,7 @@ const menu = () => {
             <label for="btn-menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
             <nav className="Navbar">
                 <ul className="List">
-                    <Link to="/" className="LiMenu">
+                    <Link to="/" className="LiMenu"  activeClassName="active">
                         INICIO
                     </Link>
                     <NavLink to="/Colaboradoras" className="LiMenu" activeClassName="active">
@@ -30,7 +30,8 @@ const menu = () => {
             </nav>
         </header>
         <Switch>
-          <Route path="/Colaboradoras" component={Colaboradoras}/>
+        {/* path que me corrige que la primera ruta sea el Home*/}
+        <Route path="/reacterc" exact component={Home}/>
           <Route path="/" exact component={Home}/>
           </Switch>
         </Router>
