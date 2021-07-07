@@ -1,11 +1,11 @@
 import React from 'react'
-import image1 from '../../utils/images/Home/Productos/1.png'
-import image2 from '../../utils/images/Home/Productos/2.png'
-import image3 from '../../utils/images/Home/Productos/3.png'
-import image4 from '../../utils/images/Home/Productos/4.png'
-import image5 from '../../utils/images/Home/Productos/5.png'
-import image6 from '../../utils/images/Home/Productos/6.png'
-import '../../utils/css/Home/StylesHome.css'
+import image1 from '../../utils/images/Home/Productos/1.png' /* se importa la imagen productos 1*/
+import image2 from '../../utils/images/Home/Productos/2.png' /* se importa la imagen productos 2*/
+import image3 from '../../utils/images/Home/Productos/3.png' /* se importa la imagen productos 3*/
+import image4 from '../../utils/images/Home/Productos/4.png' /* se importa la imagen productos 4*/
+import image5 from '../../utils/images/Home/Productos/5.png' /* se importa la imagen productos 5*/
+import image6 from '../../utils/images/Home/Productos/6.png' /* se importa la imagen productos 6*/
+import '../../utils/css/Home/StylesHome.css' /* se importa los estilos Home*/
 
 const contenedorProductos = () => {
     return (
@@ -24,17 +24,17 @@ const contenedorProductos = () => {
         </div>
         <div className="botonLle">
           <button>
-            <a href="./src/pages/Productos/productos.html">Ver productos</a>
+              <a href="./src/pages/Productos/productos.html">Ver productos</a>
           </button>
         </div>
       </div>
       <div className="boxFotos">
-        <img src={image1} alt />
-        <img src={image2} alt />
-        <img src={image3} alt />
-        <img src={image4} alt />
-        <img src={image5} alt />
-        <img src={image6} alt />
+          <img src={image1} alt="imagen1"/>
+          <img src={image2} alt="imagen2"/>
+          <img src={image3} alt="imagen3"/>
+          <img src={image4} alt="imagen4"/>
+          <img src={image5} alt="imagen5"/>
+          <img src={image6} alt="imagen6"/>
       </div>
     </div>
   </div>
