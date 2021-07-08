@@ -22,14 +22,19 @@ Encaso de que querer copiar o usar esta información y código te recomiendo lo 
 
 Código para clonar con protocoló https:
 
-`https://github.com/Sofiagz21/reacterc.git`
+```
+https://github.com/Sofiagz21/reacterc.git
+```
 
 Código para clonar con protocoló SSH:
 
-`git@github.com:Sofiagz21/reacterc.git`
+```
+git@github.com:Sofiagz21/reacterc.git
+```
 
 Código para clonar con protocoló Github CLI:
 
-`gh repo clone Sofiagz21/reacterc`
-
+```
+gh repo clone Sofiagz21/reacterc
+```
 
