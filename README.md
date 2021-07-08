@@ -13,6 +13,7 @@ Destacar el trabajo del campesino teniendo en cuenta su origen e historia para l
  - HTML5
  - CSS3
  - JavaScript
+ - React
 
 
 ### Procedimiento
