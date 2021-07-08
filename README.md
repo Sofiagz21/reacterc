@@ -1,5 +1,22 @@
-# El rincón del campo
+# El rincón del campo👨‍🌾👩‍🌾
 
-El rincón del campo es un proyecto social  fundamentado en crear conciencia y arraigo hacia el trabajo del campo puesto que el valor que se le da a la tierra es desvalorada y poco renocida en el país.
+A través de una plataforma web fundamentado en crear conciencia y arraigo hacia el trabajo agro, puesto que el valor que se le da a la tierra es desvalorada y poco reconocida en el país.
 
-![Mockup](https://user-images.githubusercontent.com/82523960/124846451-75ba5e00-df5e-11eb-9cf5-60defbe07ea7.png)
+
+
+###  Objetivo del proyecto
+
+Destacar el trabajo del campesino teniendo en cuenta su origen e historia para lograr una concientización colectiva con la comunidad, de manera que se logre comprender la importancia de los productos agrícolas y bajo qué circunstancias estos se dan.
+
+
+###  Construido con 🛠️
+
+ - HTML5
+ - CSS3
+ - JavaScript
+
+
+### Instalación 
+
+You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+
